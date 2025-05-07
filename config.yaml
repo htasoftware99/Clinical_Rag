@@ -1,0 +1,22 @@
+# text_splitter:
+#   chunk_size: 500
+#   chunk_overlap: 50
+
+# embedding:
+#   model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+
+# RAG System Configuration
+
+# PDF document path
+pdf_path: "project/paper1.pdf"
+
+# Text processing
+chunk_size: 1000
+chunk_overlap: 200
+
+# Model configuration
+model_name: "sentence-transformers/all-MiniLM-L6-v2"
+
+# Vector store configuration
+persist_directory: "chroma_db"

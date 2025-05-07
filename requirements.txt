@@ -1,0 +1,4 @@
+langchain-chroma==0.2.2
+langchain-community==0.3.17
+langchain-huggingface==0.1.2
+pdfminer.six==20240706
